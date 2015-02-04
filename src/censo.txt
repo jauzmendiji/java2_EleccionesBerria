@@ -1,0 +1,9 @@
+jon,auzmendi,jimenez,72542431v,21
+kaka,kaka,kaka,123456789,23
+jon,jaja,jaja,123456778,33
+j,a,a,123456788,34
+r,e,w,123456780,22
+jon,auzmendi,ji,72545134c,22
+jon,auzmendi,11,123456765,11
+jon,ja,ja,123456789,11
+jaj,jaj,jaja,123456789,11
