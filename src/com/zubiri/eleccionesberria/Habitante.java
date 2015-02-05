@@ -1,60 +1,62 @@
+package com.zubiri.eleccionesberria;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Habitante {
+ class Habitante {
 	private String nombre;
 	private String ape1;
 	private String ape2;
 	private String dni;
 	private int edad;
 
-	public void setNombre (String izena){
+	 void setNombre (String izena){
 		nombre = izena;
 	}
-	public String getNombre(){
+	 String getNombre(){
 		return nombre;
 	}
 
-	public void setApellido1 (String ab1){
+	 void setApellido1 (String ab1){
 		ape1 = ab1;
 	}
-	public String getApellido1(){
+	 String getApellido1(){
 		return ape1;
 	}
 
-	public void setApellido2 (String ab2){
+	 void setApellido2 (String ab2){
 		ape2 = ab2;
 	}
 
-	public String getApellido2(){
+	 String getApellido2(){
 		return ape2;
 	}	
 
-	public void setDni (String nan){
+	 void setDni (String nan){
 		dni = nan;
 	}
 
-	public String getDni(){
+	 String getDni(){
 		return dni;
 	}
 
-	public void setEdad (int ad){
+	 void setEdad (int ad){
 		edad = ad;
 	}
 
-	public int getEdad(){
+	 int getEdad(){
 		return edad;
 	}
 	
-	public static void ImprimirHabitante(){
+	 static void ImprimirHabitante(){
 		
 		System.out.print("\n--> Datos de los votantes: \n");
 		ArrayList<Habitante> alHabitante= new ArrayList<Habitante>();
 
-		File censo = new File("/home/zubiri/proyectojava/java2/java2_Elecciones/src/censo.txt");
+		File censo = new File("/home/zubiri/proyectojava/java2/java2_EleccionesBerria/src/censo.txt");
 		Scanner salidah = null;
 
 		try {	

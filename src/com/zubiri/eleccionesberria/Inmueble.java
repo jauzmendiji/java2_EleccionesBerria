@@ -1,32 +1,34 @@
-public class Inmueble {
+package com.zubiri.eleccionesberria;
+
+ class Inmueble {
 	private static String direccionin;
 	private static String localidadin;
 	private static int cp;
 
 
-	public final void setDireccionin (String dir){
+	 final void setDireccionin (String dir){
 		direccionin = dir;
 	}
-	public String getDireccionin(){
+	 String getDireccionin(){
 		return direccionin;
 	}
 
-	public void setLocalidadin (String loc){
+	 void setLocalidadin (String loc){
 		localidadin = loc;
 	}
 
-	public String getLocalidadin(){
+	 String getLocalidadin(){
 		return localidadin;
 	}
 
-	public void setCp (int codp){
+	 void setCp (int codp){
 		cp = codp;
 	}
-	public int getCp(){
+	 int getCp(){
 		return cp;
 	}
 	
-	public static void ImprimirInmu(){
+	 static void ImprimirInmu(){
 		
 		System.out.println("\n\n Datos del inmueble: ");
 		System.out.println("\n-------------------------");

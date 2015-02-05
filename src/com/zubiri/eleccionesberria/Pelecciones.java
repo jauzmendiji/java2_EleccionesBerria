@@ -1,3 +1,6 @@
+package com.zubiri.eleccionesberria;
+
+
 import java.util.*;
 import java.io.*;
 
@@ -209,8 +212,10 @@ public class Pelecciones {
 		System.out.println("\n-------------------------");*/
 
 	//Salida Ayuntamiento
+		
+		Ayuntamiento.ImprimirAyun();
 
-		System.out.println("\n\n Datos Ayuntamiento: ");
+		/*System.out.println("\n\n Datos Ayuntamiento: ");
 		System.out.println("\n-------------------------");
 
 		System.out.println("\nLa direccion es: " + ayun.getDireccionay());
@@ -218,12 +223,13 @@ public class Pelecciones {
 		System.out.println("\nEl alcalde es: " + ayun.getAlcalde());
 		System.out.println("\nPertence al partido: " +ayun.getPartidop());
 
-		System.out.println("\n-------------------------");
+		System.out.println("\n-------------------------");*/
 
 	//Partidos
 
+		Partido.ImprimirPart();
 		
-		System.out.print("\n--> Datos del partido: \n");
+		/*System.out.print("\n--> Datos del partido: \n");
 		ArrayList<Partido> listcort = new ArrayList<Partido>();
 
 		File archivo = new File("/home/zubiri/proyectojava/java2/java2_Elecciones/src/listadoPartidos.txt");
@@ -258,6 +264,6 @@ public class Pelecciones {
 		}
 		catch (IOException ioe) {
 			System.out.println("Error E/S: " + ioe);
-		}
+		}*/
 	}
 }
